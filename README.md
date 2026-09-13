@@ -1,20 +1,14 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Otakatikide - Web Announcement
 
-# Run and deploy your AI Studio app
+Website resmi portal & pengumuman Otakatikide yang siap tayang gratis langsung di **GitHub Pages** tanpa perlu hosting luar.
 
-This contains everything you need to run your app locally.
+## Cara Mengaktifkan GitHub Pages
 
-View your app in AI Studio: https://ai.studio/apps/3224bc1a-c326-4f37-b0f2-098e7138e1c5
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Masuk ke repositori GitHub Anda: **`otakatikidebranding/otakatikide`**
+2. Klik tab **Settings** di menu atas repositori.
+3. Di sidebar sebelah kiri, klik menu **Pages**.
+4. Pada bagian **Build and deployment** -> **Source**:
+   - Pilih **GitHub Actions**
+5. Selesai! Otomatis alur kerja di `.github/workflows/deploy.yml` akan mem-build dan menerbitkan website Anda.
+6. Alamat website Anda akan langsung aktif di:
+   `https://otakatikidebranding.github.io/otakatikide/`
