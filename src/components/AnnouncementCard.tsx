@@ -97,7 +97,7 @@ export const AnnouncementCard: React.FC<AnnouncementCardProps> = () => {
             </p>
 
             <p>
-              Buat kamu yang mau lihat portofolio,
+              Kunjungi profil baru kami,
               <br />
               cek layanan, atau mau diskusi project,
               <br />
