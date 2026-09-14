@@ -85,7 +85,7 @@ export const AnnouncementCard: React.FC<AnnouncementCardProps> = () => {
             id="announcement-title"
             className="text-[#1E1133] font-extrabold text-xl sm:text-[25px] leading-tight tracking-tight mb-2.5 sm:mb-3.5"
           >
-            Wajah Baru Otakatikide!
+            Branding & Creative
           </h2>
 
           {/* Body Paragraphs */}
