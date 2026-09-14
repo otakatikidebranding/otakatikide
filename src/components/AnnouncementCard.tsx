@@ -85,7 +85,7 @@ export const AnnouncementCard: React.FC<AnnouncementCardProps> = () => {
             id="announcement-title"
             className="text-[#1E1133] font-extrabold text-xl sm:text-[25px] leading-tight tracking-tight mb-2.5 sm:mb-3.5"
           >
-            Branding & Creative
+            Wajah Baru Otakatikide!
           </h2>
 
           {/* Body Paragraphs */}
@@ -97,7 +97,7 @@ export const AnnouncementCard: React.FC<AnnouncementCardProps> = () => {
             </p>
 
             <p>
-              Kunjungi profil baru kami,
+              Buat kamu yang mau lihat portofolio,
               <br />
               cek layanan, atau mau diskusi project,
               <br />
@@ -137,7 +137,7 @@ export const AnnouncementCard: React.FC<AnnouncementCardProps> = () => {
               <span className="tracking-wide">Catatan PENTING:</span>
             </div>
             <p className="text-[#991B1B]/90 text-[11.5px] sm:text-xs mt-0.5 leading-snug font-medium">
-              Domain.com lama sudah tidak aktif dan berada diluar kepemilikan kami.
+              <strong className="font-bold text-[#991B1B]">otakatikide(dot)com, Bukan website kami</strong> lagi, dan berada di luar kepemilikan kami.
             </p>
           </div>
 
