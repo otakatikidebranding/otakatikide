@@ -48,7 +48,7 @@ export const ProjectOfferForm: React.FC = () => {
     ];
 
     const encodedText = encodeURIComponent(messageLines.join('\n'));
-    const waUrl = `https://wa.me/?text=${encodedText}`;
+    const waUrl = `https://wa.me/6287719613858?text=${encodedText}`;
 
     window.open(waUrl, '_blank', 'noopener,noreferrer');
 
