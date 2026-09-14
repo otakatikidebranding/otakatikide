@@ -183,7 +183,7 @@ export const AnnouncementCard: React.FC<AnnouncementCardProps> = () => {
                     <a
                       key={idx}
                       id={`promo-item-${promo.kategori.toLowerCase().replace(/\s+/g, '-')}`}
-                      href={`https://wa.me/?text=${encodeURIComponent(promo.waText)}`}
+                      href={`https://wa.me/6287719613858?text=${encodeURIComponent(promo.waText)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="group flex items-center justify-between py-2.5 px-3 rounded-xl bg-white hover:bg-[#24113D] border border-black/20 hover:border-[#24113D] transition-all duration-150 shadow-2xs cursor-pointer min-h-[44px]"
